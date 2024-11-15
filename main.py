@@ -8,6 +8,6 @@ def index():
 
 @app.route('/prova')
 def prova():
-    return '<h1>Pagina di prova</h1>'
+    return '<h1>Pagina di prova.</h1>'
 
 app.run(host='localhost', debug=True)
